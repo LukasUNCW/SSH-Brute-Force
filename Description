@@ -1,3 +1,19 @@
 # SSH Brute Force
- 
-This program utilizes pwntools and paramiko to brute force commonly known passwords through ssh (port 22).
+
+The following Python script performs a brute-force attack on an open SSH service, attempting to guess a password for a specified user on a remote server. 
+
+It uses the 'pwn' and 'paramiko' libraries to automate the process of testing multiple passwords against an SSH server running on '127.0.0.1' (the local machine). 
+
+The passwords are read from a popular password dictionary file called 'rockyou.txt'.
+
+This script is useful for testing the strength of SSH password authentication using a list of common passwords. 
+
+It should only be used on machines you own or have permission to test. Unauthorized use could be considered illegal and unethical.
+
+To install the libraries, run the following commands inside your desired IDE terminal, pip install pwn, pip install paramiko. 
+
+Links to documentation are below.
+
+https://www.paramiko.org/
+
+https://docs.pwntools.com/en/latest/
