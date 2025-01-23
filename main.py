@@ -3,7 +3,7 @@ from pwn import *
 import paramiko
 
 host = "127.0.0.1"
-username = "notroot"
+username = "admin"
 attempts = 0
 
 with open("rockyou.txt", "r") as password_list:
