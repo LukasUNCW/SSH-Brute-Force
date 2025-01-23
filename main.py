@@ -6,7 +6,7 @@ host = "127.0.0.1"
 username = "notroot"
 attempts = 0
 
-with open("ssh-common-passwords.txt", "r") as password_list:
+with open("rockyou.txt", "r") as password_list:
     for password in password_list:
         password = password.strip("\n")
         try:
